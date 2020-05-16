@@ -1,0 +1,34 @@
+
+{% extends 'base.html' %}
+{% block content %}
+ {%load static%}
+ <link rel="stylesheet"  href="{%static 'contact.css'%}">
+		<center>
+		<p class="head">Devloper Team</p><br>
+		</center>
+		<table  width="100%" >
+			<center>
+			<tr>
+				<td>
+					<div class="team" id=a>
+						<img src="{% static 'loginpage.png'%}" width="100px" height="100px">
+						<br>
+					Name:Varkha Yadav<br><br>
+					Phone no:+918912736782<br><br>
+					Email:varkhay@gmail.com
+				</td>
+			
+				<td>
+					<div class="team" id=a>
+						<img src="{% static 'loginpage.png'%}" width="100px" height="100px">
+						<br>
+					Name:Ayush Ranjan<br><br>
+					Phone no:+917990630716<br><br>
+					Email:ayush123@gmail.com
+				</td>
+			</tr>	
+		</div>
+			</center>
+		</table>
+	
+{% endblock %}
