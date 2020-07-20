@@ -1,4 +1,4 @@
-#!/Users/ayushranjan/Desktop/CarRentalSystem-master/env/bin/python3
+#!/Users/ayushranjan/Desktop/CarRentalSystem-main/env/bin/python3
 from django.core import management
 
 if __name__ == "__main__":
