@@ -74,9 +74,9 @@ WSGI_APPLICATION = 'CarRental.wsgi.application'
 DATABASES = {
 'default': {
     'ENGINE': 'mysql.connector.django',
-    'NAME': 'temp',
-    'USER': 'root',
-    'PASSWORD':'Ranjan6459@',
+    'NAME': '---',
+    'USER': '----',
+    'PASSWORD':'------',
     'HOST':'localhost',
     'PORT':'',
     }
